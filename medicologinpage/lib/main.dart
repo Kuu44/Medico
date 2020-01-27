@@ -75,6 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
     );
 
     return Scaffold(
+      resizeToAvoidBottomInsert: false,
       body: Center(
         child: Container(
           color: Colors.white,
